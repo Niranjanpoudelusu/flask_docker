@@ -12,6 +12,6 @@ EXPOSE 5000
 
 ENTRYPOINT ["python3"]
 
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:app.py"]
+CMD ["app:app.py"]
 
 
